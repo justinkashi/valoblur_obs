@@ -2,6 +2,10 @@
 
 OBS helper script to detect your Valorant username on screen and toggle a blur source.
 
+## Project Status (February 17, 2026)
+
+We are now in the **testing phase**. The core detector and OBS integration are implemented, and the current objective is aggressive real-world validation: tune threshold/region, confirm low-latency behavior in live gameplay, and harden against false positives before locking a stable release profile.
+
 ## Project Layout
 
 - `scripts/auto_blur.py`: Template matcher + OBS script hooks.
